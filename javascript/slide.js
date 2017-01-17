@@ -1,1 +1,1 @@
-!function(){document.onkeydown=function(n){n=n||window.event,37==n.keyCode&&navigation.prev&&(window.location=navigation.prev.data.url),39==n.keyCode&&navigation.next&&(window.location=navigation.next.data.url)}}();
+document.addEventListener("DOMContentLoaded",function(){document.onkeydown=function(n){n=n||window.event,37==n.keyCode&&navigation.prev&&(window.location=navigation.prev.data.url),39==n.keyCode&&navigation.next&&(window.location=navigation.next.data.url)}});
